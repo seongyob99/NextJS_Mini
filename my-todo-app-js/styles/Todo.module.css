@@ -1,0 +1,90 @@
+.container {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.inputBox {
+    padding: 0.5rem;
+    width: 300px;
+    margin-right: 0.5rem;
+}
+
+.button {
+    padding: 0.5rem;
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+.item {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.deleteButton {
+    margin-left: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    background: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fixedCard {
+    height: 180px; /* 카드 높이 고정 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.card-text {
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    margin-bottom: 0.5rem;
+}
+
+.card-footer {
+    padding-top: 0.5rem !important;
+}
+.cardTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+}

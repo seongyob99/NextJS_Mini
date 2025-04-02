@@ -1,0 +1,27 @@
+/*Header.module.css */
+.header {
+    background-color: #007bff;
+    /* Bootstrap primary 색상 */
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    max-width: 960px;
+    margin-left: 0;
+    /* 왼쪽 정렬 */
+    margin-right: auto;
+    padding-left: 9rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
